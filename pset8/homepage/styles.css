@@ -1,0 +1,50 @@
+.centered
+{
+    text-align: center;
+}
+
+.large
+{
+    font-size: large;
+}
+
+.medium
+{
+    font-size: medium;
+}
+
+.small
+{
+    font-size: small;
+}
+
+.colorred
+{
+    background-color: red;
+}
+
+.border
+{
+    border: blue;
+}
+
+.colorcustom
+{
+    background-color: #3da859;
+}
+
+#one
+{
+    background-color: #a6588d;
+}
+
+compound
+{
+    background-color: #a65858;
+}
+
+.margin
+{
+    margin-top: 400px;
+    margin-bottom: 400px;
+}
