@@ -1,0 +1,31 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Bubble sort should have one of the fastest (if not the fastest) sorted run time.
+
+sort2 uses: Merge Sort
+
+How do you know?: Merge sort should have the fastest overall run time.
+Merge sort will also have the least dramatic jump in run time when increasing the number of numbers to process.
+
+sort3 uses: Selection Sort
+
+How do you know?: Selection sort should have the most consistent run times regardless of how the data is organized.
+This is proven by selection sort being theta of n squared.
+
+
+
+
+sort 1 results:
+rdm_5k: [0.06-0.09] rdm_10k: [0.24-0.30] rdm_50k: [8.00-8.40]
+rev_5k: [0.07-0.10] rev_10k: [0.26-0.30] rev_50k: [6.10-6.50]
+sor_5k: [0.02-0.04] sor_10k: [0.05-0.08] sor_50k: [0.70-1.00]
+
+sort 2 results:
+rdm_5k: [0.02-0.05] rdm_10k: [0.04-1.00] rdm_50k: [0.70-1.10]
+rev_5k: [0.04-0.05] rev_10k: [0.04-0.90] rev_50k: [0.50-1.20]
+sor_5k: [0.03-0.05] sor_10k: [0.05-0.08] sor_50k: [0.40-1.20]
+
+sort 3 results:
+rdm_5k: [0.05-0.07] rdm_10k: [0.16-0.19] rdm_50k: [3.50-3.90]
+rev_5k: [0.05-0.08] rev_10k: [0.17-0.20] rev_50k: [3.50-3.80]
+sor_5k: [0.05-0.07] sor_10k: [0.17-0.21] sor_50k: [3.20-3.60]
